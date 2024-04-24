@@ -1,0 +1,75 @@
+
+body{
+    margin:0;
+    color: white;
+}
+.landing{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}   
+
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: goldenrod;
+}
+header{
+    height: 4vh;
+    font-size: 1.2em;
+    display: flex;
+    padding: 1em;
+    background-color: rgba(201, 199, 197, 0.068);
+    
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+nav{
+    flex:1;
+    display: flex;
+}
+nav a{
+    font-family: 'Black Ops One', cursive;
+    padding-right: .5em;
+    flex:.5;
+}
+
+#cen1{
+    width: 20vh;
+    height: 10vh;
+    border-radius: 50px;
+    opacity: .65;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+#maintext{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    justify-content: center;
+   
+}
+#maintext div{
+    margin-top: 0.5em;
+}
+#title{
+    color:rgb(219, 213, 213) ;
+    font-size: 5em;
+    font-family: 'Black Ops One', cursive;
+}
+#title:hover{
+    font-size: 5.2em;
+}
+
+#date{
+    font-size:1.7em
+}
+

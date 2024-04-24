@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0)),url('page1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    
+}
+header a{
+    text-decoration: none;
+    color: whitesmoke
+}
+header{
+    
+    font-size: 1.2em;
+    display: flex;
+    padding: 1em;
+}
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+
+#one{
+    height: 15vh;
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url('eventbg.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: .9;
+    border: 1px solid whitesmoke;
+    
+}
+#two{
+    background-color: azure;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.5)),url('workbg.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    border: 1px solid whitesmoke;
+    
+}
+#three{
+    background-color:brown;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-image: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,0.3)),url('sembg.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    border: 1px solid whitesmoke;
+}
+#four{
+    background-color: blue;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,0.2)),url('prizebg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    border: 1px solid whitesmoke;
+}
+#five{
+    background-color:chartreuse;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,0.5)), url('sponsbg.webp');
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+    border: 1px solid whitesmoke;
+}
+#container{
+    /* position: fixed; */
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: .75em;
+    align-items: center;
+}
+h1{
+    display: inline;
+
+}
+img{
+    height: 15vh;
+    width: 15vh;
+    margin-left: 40%;
+}
+p{
+    font-family: 'Black Ops One', cursive;
+    font-size: 1.5em;
+    color: grey
+}
+a{
+    text-decoration: none;
+}
+p:hover{
+    font-size: 2em;
+    color:white
+}
+
+

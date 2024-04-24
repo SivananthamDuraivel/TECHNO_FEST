@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<style>
+     @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+    body{
+        background-image: linear-gradient(to right,rgba(0,0,0,.7),rgba(0,0,0,.8),rgba(0,0,0,.4),rgba(0,0,0,0)),url('regi.jpg');
+        background-size: cover;
+    background-position: center;
+    height: 100vh;
+    }
+    header a{
+        font-family: 'Black Ops One';
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 4vh;
+    font-size: 1.2em;
+    display: flex;
+    padding: 1em;
+    background-color: rgba(201, 199, 197, 0.068); 
+}
+#tf{
+        font-size: 1.5em;
+        margin-top: -10px;
+    }
+
+#logo{
+    flex: 3;
+    font-size: 1.25em;
+    padding-left: 1em;
+}
+nav{
+    flex:1;
+    display: flex;
+}
+nav a{
+    padding-right: .5em;
+    flex:.5;
+}
+button{
+    
+    background-color: grey;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: .8em;
+    padding: .5em;
+}
+button:focus{
+    background-color: black;
+}
+input{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    color: gray;
+    padding-left: 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+input:focus{
+    outline: none;
+    border-bottom: 3px solid grey;
+    color: whitesmoke;
+}
+#outer{
+   
+    margin-left: 50%;
+    display: flex;
+    width: 70vh;
+    height: 50vh;
+    background:rgba(73, 71, 71, 0.276)
+    
+}
+#image{
+    flex: 1;
+}
+#container{
+    color: white;
+    
+    width: 50vw;
+    height: 40vh;  
+    flex: 1;
+    margin-top: 1.5em;
+    margin-left: -2em;
+   
+}
+
+#human{
+    opacity: .25;
+    width: 30vh;
+    height: 50vh;
+    background-color: grey;
+    border-radius: 30px;
+   
+}
+i{
+    width:1em;
+    height: 1em;
+}
+h1{
+    font-family: 'Black Ops One','Courier New', Courier, monospace; 
+    margin-top: 50px;
+    float: right;
+    margin-right: 6.8em;
+    color:rgba(245, 245, 245, 0.516)
+}
+#quote{
+    position:absolute;
+    margin-top: 120px;
+    font-family: 'Black Ops One';
+    color: goldenrod;
+    width: 40vh;
+    font-size: 2em;
+   margin-left: 50px;
+}
+
+</style>
+<body>
+    <header>
+        <a href="index.html" id="logo"><p id="tf">TF</p></a>
+        <nav>
+            <a href="page1.html">AGENDA</a>
+            <a href="">CONTACT</a>
+        </nav>
+    </header>
+   <h1 >REGISTRATION FORM</h1>
+    <div id="quote">
+        <p >
+            Participation is not just about being present; it's about making a difference.
+        </p>
+    </div>
+   <div id="outer">
+        <div id="image">
+            <img src="human.png" id="human" alt="">
+        </div>
+        <div id="container">
+            <label for="" ><i class="fa-solid fa-user fa-beat-fade fa-2xl" style="color: #f0f0f0;"></i></label>
+            <input type="text" placeholder="First Name"><br><br>
+    
+            <label for=""><i class="fa-solid fa-user fa-beat-fade fa-2xl" style="color: #f0f0f0;"></i></label>
+            <input type="text" placeholder="Last Name"><br><br>
+    
+            <label for=""><i class="fa-solid fa-envelope fa-beat-fade fa-2xl" style="color: #ededed;"></i></label>
+            <input type="email" placeholder="Email-id"><br><br>
+    
+            <label for=""><i class="fa-solid fa-lock fa-beat-fade fa-2xl" style="color: #ccced1;"></i></label>
+            <input type="password" placeholder="Password" ><br><br>
+            
+            <label for=""><i class="fa-solid fa-id-card fa-beat-fade fa-2xl" style="color: #dfe0e2;"></i></label>
+            <input type="number" placeholder="Roll Number"><br>
+    
+            <center><button value="REGISTER">REGISTER</button></center>
+            
+        </div>
+   </div>
+</body>
+</html>
